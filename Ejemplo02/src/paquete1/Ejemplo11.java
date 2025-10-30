@@ -31,7 +31,8 @@ public class Ejemplo11 {
         notaAsignatura1 = entrada.nextDouble();
         
         
-        System.out.printf("Asignatura 1: %s\nNota 1:%.2f",
+        System.out.printf("Asignatura 1: %s\nNota 1:%.1f \n", 
+                // %.2f significa que recibe un decimal y me va a dar 2 decimales despues de la coma,depende que numero ponga
                 nombreAsignatura1,
                 notaAsignatura1
         );
