@@ -30,7 +30,7 @@ public class Ejemplo031 {
         System.out.println("Ingrese el año de nacimiento del estudiante");
         nacimiento = entrada.nextInt();
         
-        System.out.printf("Datos del estudiante\n%s\n%s\n%d\n", //Hemos cambiado %s por %d puesto que nacimiento es un tipo de dato entero
+        System.out.printf("Datos del estudiante\n%s\n%s\n%d\n", // Hemos cambiado %s por %d puesto que nacimiento es un tipo de dato entero
                 nombre,
                 apellido,
                 nacimiento);
